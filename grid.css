@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+/*Mobile first 460px <*/
+.header {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 100px 260px 100px;
+    background-color: gray;
+    margin: 10px 10px;
+}
+.tekst {
+    margin: 5px;
+}
+.billede {
+    width:400px;
+    margin: 10px 10px;
+}
+.billedetekst {
+    margin: 10px;
+}
+.container-1 {
+    background-color: gray;
+    margin: 0px 10px;
+}
+.billede-2 {
+    display: grid;
+    grid-template-columns: 230px 230px;
+    grid-template-rows: 200px 200px 200px;
+    width: 150px;
+    margin: 10px 5px;
+}
+.footer {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 100px 260px 100px;
+    background-color: gray;
+    margin: 10px 10px;
+}
+/*tablet 880<*/
+@media only screen and (min-width: 880px) {
+
+.billede {
+    width:825px;
+    margin:10px 10px;
+}
+.billede-2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    width: 150px;
+    margin: 10px 5px;
+}
+}
+/*tablet 880<*/
+@media only screen and (min-width: 1200px) {
+    .billede {
+        width:1170px;
+        margin:10px 10px;
+    }
+    .billede-2 {
+        width: 400px;
+        display: grid;
+    }
+}
